@@ -203,8 +203,9 @@ section {
 }
 
 .ig {
-  background: linear-gradient(var(--color-card), var(--color-card)) padding-box, /*this is your grey background*/ 
-  linear-gradient(to right, #fdc468, #df4996) border-box;
+  background: linear-gradient(var(--color-card), var(--color-card)) padding-box,
+    /*this is your grey background*/ linear-gradient(to right, #fdc468, #df4996)
+      border-box;
   color: #313149;
   border-top: 3px solid transparent;
   border-radius: 6px;
@@ -259,4 +260,25 @@ h2 {
 .tog-hov:hover {
   background-color: var(--color-card-hover);
   z-index: 1;
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 300px;
+    display: inline-block;
+    margin: 1em auto;
+  }
+  .small-card {
+    width: 300px;
+    display: inline-block;
+    margin: 1em auto;
+  }
 }
