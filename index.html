@@ -222,7 +222,7 @@
   <script>
     var btn = document.querySelector(".switch");
 
-    addEventListener("mousedown", changeTheme);
+    btn.addEventListener("mousedown", changeTheme);
 
     function changeTheme() {
       if (document.body.classList.contains('theme-light'))

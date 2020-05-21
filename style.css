@@ -65,7 +65,7 @@ header h1 {
 header p:nth-child(2) {
   color: var(--color-text-1);
   padding: 0 0 1em 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--color-text-1);
 }
 
 nav {
@@ -258,4 +258,5 @@ h2 {
 
 .tog-hov:hover {
   background-color: var(--color-card-hover);
+  z-index: 1;
 }
