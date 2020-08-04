@@ -145,7 +145,7 @@ input:checked + .slider:before {
 /*siwtch end*/
 
 section {
-  margin: 1em;
+  margin: 1em 0;
 }
 
 .card {
